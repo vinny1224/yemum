@@ -1,0 +1,24 @@
+new Game.Player(350, 50, '/image/game/player14.png')
+new Game.Player(50, 50, '/image/game/player2.png', 'w', 'a', 's', 'd')
+new Game.Player(250, 50, '/image/game/player4.png', 'i', 'j', 'k', 'l')
+new Game.GoodItem(200, 250)
+new Game.GoodItem(350, 350)
+new Game.GoodItem(50, 350)
+
+Game.BackgroundImage('/image/game/tile/2.png')
+
+
+new Game.BadItem(350, 150)
+new Game.BadItem(50, 150)
+new Game.BadItem(200, 450)
+
+new Game.Enemy(50, 550, '/image/game/player10.png')
+new Game.Enemy(350, 550, '/image/game/player10.png')
+new Game.Enemy(250, 550, '/image/game/player10.png')
+
+new Game.Obstacle(200, 300)
+new Game.Obstacle(50, 300)
+new Game.Obstacle(350, 300)
+new Game.Obstacle(250, 109)
+
+new Game.Scoreboard()
